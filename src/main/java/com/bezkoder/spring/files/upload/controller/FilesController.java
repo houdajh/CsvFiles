@@ -21,9 +21,8 @@ import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBui
 import com.bezkoder.spring.files.upload.message.ResponseMessage;
 import com.bezkoder.spring.files.upload.model.FileInfo;
 import com.bezkoder.spring.files.upload.service.FilesStorageService;
-
 @Controller
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin("http://localhost:8887")
 public class FilesController {
 
   @Autowired
